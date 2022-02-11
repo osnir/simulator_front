@@ -1,0 +1,19 @@
+header {
+    padding: 15px;
+    height: 110px;
+    display: block;  
+}
+
+img {
+    max-width: 220px;
+    margin-left: 12%;
+}
+  
+.navbar {
+    width: 100%;
+    background-color: #f5a11d;
+    color: #040d50;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+}

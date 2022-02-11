@@ -1,0 +1,51 @@
+.logo {
+    margin-top: 2.5rem;
+}
+
+.pagAzul-title {
+    color: #078bd8;
+}
+
+.pagAzul-text {
+    font-size: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #0693e3;
+    text-align: justify;
+}
+
+.tomatico-title {
+    color: #4b4b4b;
+}
+
+.tomatico-text {
+    font-size: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #4b4b4b;
+    text-align: justify;
+}
+
+.safrapay-title {
+    color: #1E2447;
+}
+
+.safrapay-text {
+    font-size: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #212f7c;
+    text-align: justify;
+}
+
+.cappta-title {
+    color: #4f5255;
+}
+
+.cappta-text {
+    font-size: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #127759;
+    text-align: justify;
+}

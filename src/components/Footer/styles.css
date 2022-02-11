@@ -1,0 +1,34 @@
+footer {
+    margin-top: 20rem;
+    color: #f8f8f8;
+    background-color: #040d50;
+    padding-top: 20px;
+    border-top: 5px solid #f5a11d;
+}
+
+li {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.footer-content {
+    margin: 0% 15% 1.7% 8%;
+  }
+
+.text-footer {
+    color: #f8f8f8;
+    font-size: 15px; 
+}  
+
+.footer-copyright {
+    background-color: #f5a11d;
+    padding: 12px 0;
+}
+  
+.footer-copyright p {
+    font-size: 15px;
+    line-height: 32px;
+    margin-top: 5px;
+    color: #040d50;
+    margin: 0% 15% 0% 15%;
+}

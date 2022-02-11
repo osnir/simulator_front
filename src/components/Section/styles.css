@@ -1,0 +1,151 @@
+#page {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+}
+
+aside {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main {
+    flex: 8
+}
+
+table {
+    border: 1px solid #040d50;
+}
+
+hr {
+    color: #f8f8f8;
+    opacity: .25;
+    width: 70%;
+    margin: 0% 15% 0px 15%;
+}
+
+tr {
+    border: 1px solid #040d50;
+}
+
+tr:nth-child(even) {
+    background-color: #dddcdc;
+}
+
+th {
+    padding: 10px;
+    background-color: #f5a11d;
+    width: 180px;
+}
+
+td {
+    padding: 10px;
+    text-align: center; 
+    vertical-align: middle; 
+}
+
+input {
+    height: 50px;
+    border-radius: 0px 4px 4px 0px;
+    padding: 0 16px;
+    background: #fff;
+    border: 1px solid #a8a8b3;
+}
+
+button {
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    background: #040d50;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 32px;
+    border: 0;
+    transition: filter 0.2s;
+}
+
+button:hover {
+    filter: brightness(1.8);
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+button, input {
+    width: 100%;
+}
+
+.div-label {
+    text-align: left;
+    line-height: 28px;
+}
+
+.div-link {
+    padding-bottom: 1%;   
+}
+
+.button-link {
+    color: #040d50;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    margin-top: 0px;
+}
+
+.button-link:hover {
+    filter: brightness(1.8);
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+}
+
+.modal button {
+    margin-top: 0px;
+}
+
+.modal-button {
+    background-color: transparent;
+    cursor: default;
+    width: 20px;
+}
+
+.modal-input {
+    margin: 1%;
+    border-radius: 4px;
+}
+
+.modal-header {
+    display: block;
+    text-align: center;
+    background-color: #f5a11d;
+    padding: 1rem;
+}
+
+.modal-content {
+    padding: 1rem;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+}
+
+.modal-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+/*
+.ReactModal__Content--after-open {
+    padding: 0px !important;
+}
+*/
